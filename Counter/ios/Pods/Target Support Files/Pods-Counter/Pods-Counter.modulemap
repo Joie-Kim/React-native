@@ -1,0 +1,6 @@
+module Pods_Counter {
+  umbrella header "Pods-Counter-umbrella.h"
+
+  export *
+  module * { export * }
+}
