@@ -6,7 +6,7 @@ import {UserContext} from '~/Context/User';
 
 import Loading from '~/Screens/Loading';
 
-import Login from '~Screens/Login';
+import Login from '~/Screens/Login';
 import MovieHome from '~/Screens/MovieHome';
 import MovieDetail from '~/Screens/MovieDetail';
 
@@ -69,7 +69,7 @@ const MovieNavigator = () => {
                     headerTitleStyle: {
                         fontWeight: 'bold',
                     },
-                    headerBackTitleVisible: false,
+                    headerBackTitleVisible: false, // 뒤로가기 버튼 옆에 제목이 뜨지 않도록 숨김
                 }}
             />
         </Stack.Navigator>
